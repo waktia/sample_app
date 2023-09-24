@@ -16,6 +16,8 @@ Rails.application.configure do
 
   # Enable server timing
   config.server_timing = true
+  
+
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
@@ -38,6 +40,8 @@ Rails.application.configure do
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
+  host = 'b057ee15d65c44f9aa9240a8d6405538.vfs.cloud9.ap-northeast-1.amazonaws.com'     # クラウドIDE
+  config.action_mailer.default_url_options = { host: host, protocol: 'https' }
 
   config.action_mailer.perform_caching = false
 
