@@ -13,6 +13,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
+gem "bcrypt", "3.1.18"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
