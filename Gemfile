@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 ruby "3.2.1"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
+gem "image_processing"
+gem "active_storage_validations"
 gem "bootstrap-sass", "3.4.1"
 gem "sassc-rails"
 gem "sprockets-rails"
